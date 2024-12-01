@@ -12,7 +12,7 @@
 # ╚═╝     ╚═╝╚══════╝ ╚═════╝ 
 #                Version 1.0.1
 
-# Code Repository Link : https://github.com/Dit-Developers/
+# Code Repository Link : https://github.com/Dit-Developers/html-report-generator/
 from jinja2 import Template
 import os
 export_dir = "./Export"
@@ -68,7 +68,7 @@ template = Template(template_str)
 output_html = template.render(exported_files=exported_files)
 
 # Save the output HTML to a file
-with open("Sudais_Usmani_Forensic_Report1.html", "w") as f:
+with open("Sudais_Usmani_Forensic_Report_PFTP_Assignment_CASE001.html", "w") as f:
     f.write(output_html)
 
-print("HTML file generated: Sudais_Usmani_Report.html")
+print("HTML file generated: Sudais_Usmani_Forensic_Report_PFTP_Assignment_CASE001.html")
